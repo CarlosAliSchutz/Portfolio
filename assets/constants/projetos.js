@@ -26,7 +26,7 @@ export const PROJETOS = [
   },
   {
     titulo: "API GitHub",
-    imagem: "./assets/img/GitHub-API.jpg",
+    imagem: "./assets/img/GitHub.jpg",
     github: "https://github.com/CarlosAliSchutz/API-Github",
   },
   {
