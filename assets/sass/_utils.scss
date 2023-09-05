@@ -1,0 +1,24 @@
+@use './config';
+
+$percentages: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100;
+
+@mixin percent($width) {
+  width: $width;
+  border-radius: 6px;
+  background-color: config.$color-green;
+}
+
+// Loop para gerar classes de porcentagens
+@each $p in $percentages {
+  .c-#{$p} {
+    @include percent(percentage($p / 100));
+  }
+}
+
+// Classe Flex Center
+.m-auto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

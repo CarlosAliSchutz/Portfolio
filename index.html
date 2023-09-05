@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl-carousel/owl.theme.green.min.css">
+  </head>
+
+  <body>
+
+    <div class="webview">
+
+      <section class="intro">
+        <div class="container">
+          <h1>Carlos Ali Schütz</h1>
+          <p>Desenvolvedor de Software</p>
+          <div class="m-auto-button">
+            <button class="button-portfolio">Portfólio</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sobre">
+        <div class="container">
+          <div class="title">
+            <h2>Sobre</h2>
+          </div>
+          <div class="row">
+            <div class="c-photo">
+              <img src="/assets/img/Perfil.jpg" alt="Foto Carlos">
+            </div>
+            <div class="c-descricao">
+              <p>
+                Atualmente, estou cursando Engenharia de Software, complementando meus estudos
+                acadêmicos com cursos online e projetos pessoais. Possuo certificações em
+                cursos como DevQuest Front-End e Dev Samurai, e conhecimento com uma variedade
+                de tecnologias, incluindo TypeScript, React Js, .NET, Spring Boot, Docker e
+                Sass. Minha experiência se estende ao uso de Redux.Js e bancos de dados como
+                PostgreSQL, SQLite e SQL Server. Além disso, estou comprometido com boas
+                práticas de desenvolvimento, como a implementação de testes unitários com
+                Jest e a adoção do Clean Code. Estou ansioso para contribuir com minha paixão
+                pela programação e meu conjunto diversificado de skills em um ambiente
+                desafiador.
+              </p>
+              <div class="habilidades" id="habilidades"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="servicos">
+        <div class="container">
+          <div class="s-title">
+            <h2>Serviços</h2>
+          </div>
+          <div class="s-carousel">
+            <div class="s-carousel-container">
+              <div class="owl-carousel owl-theme">
+                <div class="item s-carousel-item">
+                  <div class="title">
+                    <p>01</p>
+                  </div>
+                  <div class="body">
+                    <div class="icon">
+                      <span><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="texto">
+                      <p>UI e UX</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item s-carousel-item">
+                  <div class="title">
+                    <p>02</p>
+                  </div>
+                  <div class="body">
+                    <div class="icon">
+                      <span><i class="fa fa-code" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="texto">
+                      <p>Programação</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item s-carousel-item">
+                  <div class="title">
+                    <p>03</p>
+                  </div>
+                  <div class="body">
+                    <div class="icon">
+                      <span><i class="fa fa-wordpress" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="texto">
+                      <p>Wordpress</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item s-carousel-item">
+                  <div class="title">
+                    <p>04</p>
+                  </div>
+                  <div class="body">
+                    <div class="icon">
+                      <span><i class="fa fa-shield" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="texto">
+                      <p>Cyber Segurança</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item s-carousel-item">
+                  <div class="title">
+                    <p>05</p>
+                  </div>
+                  <div class="body">
+                    <div class="icon">
+                      <span><i class="fa fa-server" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="texto">
+                      <p>Infraestrutura</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolios">
+        <div class="container">
+          <div class="p-title">
+            <h2>Portfólios</h2>
+          </div>
+          <div class="p-projetos">
+            <div class="projeto" id="projeto"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato">
+        <div class="container">
+          <div class="title">
+            <h2>Contato</h2>
+          </div>
+
+          <div class="formulario">
+            <form id="formulario" action="https://formspree.io/f/xaygjdoa" method="POST">
+              <div class="form-group">
+                <div class="controls">
+                  <label for="nome">Nome:</label>
+                  <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="controls">
+                  <label for="sobrenome">Sobrenome:</label>
+                  <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="controls">
+                  <label for="email">E-mail:</label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="controls">
+                  <label for="celular">Celular:</label>
+                  <input type="text" name="celular" id="celular" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="controls">
+                  <label for="mensagem">Mensagem:</label>
+                  <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group m-auto">
+                <button class="button-form-send" id="my-form-button">Enviar</button>
+              </div>
+
+              <p id="my-form-status"></p>
+
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="container-whatsapp">
+        <a href="https://api.whatsapp.com/send/?phone=%2B5551999196343&text&app_absent=0" target="_blank" class="button-whatsapp">
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <footer>
+        <span>&copy; Todos os direitos reservados.</span>
+      </footer>
+
+    </div>
+    <!-- JQuery -->
+    <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script>
+    <!-- JQuery Mask -->
+    <script src="./assets/js/jquery/jquery.mask.min.js"></script>
+    <script src="./assets/js/custom/mask-form.js"></script>
+    <!-- Owl Carousel -->
+    <script src="./assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./assets/js/owl-carousel/owl.start.function.js"></script>
+    <!-- Form -->
+    <script type="module" src="assets/js/form/send.js"></script>
+    <!-- Functions JS -->
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
+
+</html>
