@@ -16,4 +16,4 @@ Este site foi cuidadosamente desenvolvido para exibir minhas habilidades e desta
 - Owl Carousel
 
 ### Screenshot
-![Screenshot](https://github.com/CarlosAliSchutz/Portfolio-pessoal/blob/main/assets/img/Screenshot.jpg)
+![Screenshot](https://github.com/CarlosAliSchutz/Portfolio/blob/main/assets/img/Screenshot.jpg)

@@ -41,7 +41,10 @@ HABILIDADES.forEach(({ name, porcentagem }) => {
 
 const projetoList = document.getElementById("projeto");
 
-PROJETOS.forEach(({imagem, titulo}) => {
+PROJETOS.forEach(({ imagem, titulo, github }) => {
+  const link = document.createElement("a");
+  link.setAttribute("target", "_blank");
+
   const photosDiv = document.createElement("div");
   photosDiv.classList.add("photos");
 
@@ -62,5 +65,9 @@ PROJETOS.forEach(({imagem, titulo}) => {
   imgDiv.appendChild(imagemImg);
   imgDiv.appendChild(tituloDiv);
   photosDiv.appendChild(imgDiv);
-  projetoList.appendChild(photosDiv);
+
+  link.appendChild(photosDiv);
+  link.href = github;
+
+  projetoList.appendChild(link);
 });
