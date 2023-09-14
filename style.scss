@@ -320,16 +320,17 @@ html, body {
               }
 
               img {
+                max-width: 600px;
                 width: 100%;
                 height: 100%;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
-
               }
             }
 
             .titulo {
+              max-width: 600px;
               display: none;
               flex-direction: row;
               flex-wrap: wrap;

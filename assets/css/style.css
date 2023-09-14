@@ -342,6 +342,7 @@ html, body {
   color: #FFFFFF;
 }
 .webview .portfolios .container .p-projetos .projeto .photos .img img {
+  max-width: 600px;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -349,6 +350,7 @@ html, body {
   background-position: center;
 }
 .webview .portfolios .container .p-projetos .projeto .photos .titulo {
+  max-width: 600px;
   display: none;
   flex-direction: row;
   flex-wrap: wrap;
