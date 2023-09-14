@@ -10,6 +10,11 @@ export const PROJETOS = [
     github: "https://github.com/CarlosAliSchutz/RedeSocial",
   },
   {
+    titulo: "NLW IA",
+    imagem: "./assets/img/NLWIA.jpg",
+    github: "https://github.com/CarlosAliSchutz/NLW",
+  },
+  {
     titulo: "Currículo Pessoal",
     imagem: "./assets/img/Curriculo.jpg",
     github: "https://github.com/CarlosAliSchutz/Curriculo-pessoal",
