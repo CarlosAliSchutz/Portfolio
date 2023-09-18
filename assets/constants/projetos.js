@@ -20,7 +20,7 @@ export const PROJETOS = [
     github: "https://github.com/CarlosAliSchutz/Curriculo-pessoal",
   },
   {
-    titulo: "Me Leva Ai",
+    titulo: "Me Leva Ai - API",
     imagem: "./assets/img/MeLevaAi.jpg",
     github: "https://github.com/CarlosAliSchutz/MeLevaAi-Api",
   },
