@@ -757,6 +757,10 @@ html, body {
           row-gap: 10px;
           column-gap: 10px;
 
+          a {
+            max-width: 600px;
+          }
+
           .photos {
             height: 100%;
 

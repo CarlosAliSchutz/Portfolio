@@ -636,6 +636,9 @@ html, body {
     row-gap: 10px;
     column-gap: 10px;
   }
+  .webview .portfolios .container .p-projetos .projeto a {
+    max-width: 600px;
+  }
   .webview .portfolios .container .p-projetos .projeto .photos {
     height: 100%;
   }
