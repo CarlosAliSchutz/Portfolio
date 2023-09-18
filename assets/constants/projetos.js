@@ -20,6 +20,11 @@ export const PROJETOS = [
     github: "https://github.com/CarlosAliSchutz/Curriculo-pessoal",
   },
   {
+    titulo: "Me Leva Ai",
+    imagem: "./assets/img/MeLevaAi.jpg",
+    github: "https://github.com/CarlosAliSchutz/MeLevaAi-Api",
+  },
+  {
     titulo: "Wizzi Checkout Viagens",
     imagem: "./assets/img/Wizzi.jpg",
     github: "https://github.com/CarlosAliSchutz/Wizzi",
