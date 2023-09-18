@@ -3,7 +3,7 @@
 Este site foi cuidadosamente desenvolvido para exibir minhas habilidades e destacar meus projetos mais notáveis. Sinta-se à vontade para explorar e descobrir mais sobre meu trabalho.
 
 ### Link
-- Solução: [Ir para solução](https://carlosalischutz.github.io/Portfolio/)
+ - Solução: [Ir para solução](https://carlosalischutz.github.io/Portfolio/)
 
 ### Tecnologias usadas
 
